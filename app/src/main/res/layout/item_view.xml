@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
         <TextView
             android:id="@+id/title"
@@ -80,5 +76,4 @@
             app:layout_constraintTop_toBottomOf="@id/date"
             tools:text="Which one of these two streaks is a comet? Although they both have comet-like features, the lower streak is the only real comet. This lower streak shows the coma and tail of Comet Leonard, a city-sized block of rocky ice that is passing through the inner Solar System as it continues its looping orbit around the Sun.  Comet Leonard has recently passed its closest to both the Earth and Venus and will round the Sun next week.  The comet, still visible to the unaided eye, has developed a long and changing tail in recent weeks.  In contrast, the upper streak is the launch plume of the Ariane V rocket that lifted the James Webb Space Telescope (JWST) off the Earth two days ago. The featured single-exposure image was taken from Thailand, and the foreground spire is atop a pagoda in Doi Inthanon National Park. JWST, NASA's largest and most powerful space telescope so far, will orbit the Sun near the Earth-Sun L2 point and is scheduled to start science observations in the summer of 2022.    Gallery: Comet Leonard 2021  Gallery: Webb Space Telescope Launch: 2021 December 25" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
-</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
